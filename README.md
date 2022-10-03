@@ -18,3 +18,7 @@ The run the client
 go run main.go endpoints.go types.go 
 ```
 
+## useful links
+
+[json to struct decoder](https://mholt.github.io/json-to-go/)
+[unmarshalling json to struct guide](https://www.sohamkamani.com/golang/json/#structured-data-decoding-json-into-structs)
