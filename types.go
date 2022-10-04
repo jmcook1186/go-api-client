@@ -8,6 +8,15 @@ type GenesisData struct {
 	} `json:"data"`
 }
 
+type StateRoot struct {
+	Meta struct {
+		ExecutionOptimistic bool `json:"execution optimistic"`
+	}
+	Data struct {
+		Root string `json:"root"`
+	} `json:"data"`
+}
+
 type PeerDescription struct {
 	Data []struct {
 		PeerID             string      `json:"peer_id"`
